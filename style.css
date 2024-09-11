@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: linear-gradient(135deg, #5131bf,#7a93e3);
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.age-calculator-app {
+    max-width: 500px;
+    padding: 20px;
+}
+.age-calculator-app h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+}
+
+.age-calculator-app h1 span {
+    color: #fef563;
+}
+
+.form-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #ffffff3a;
+}
+
+.form-container input[type=date] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    border: 0;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.form-container input[type=submit] {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    background-color:#fef563;
+    color: rgba(0, 0, 0, 0.808);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.form-container input[type=submit]:hover {
+    background-color:#fed563;
+}
+
+.age-calculator-app h4 {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: whitesmoke;
+    font-weight: 200;
+}
